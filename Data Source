@@ -1,4 +1,10 @@
-## Data Source
-This project uses synthetically generated personal finance data to simulate real-world income, expenses, and savings behavior.  
-The purpose is to demonstrate database design, SQL querying, and financial analysis — not to expose real personal data.
+This project uses synthetically generated personal finance data designed to closely mirror real-world
+income, expense, budgeting, and savings behavior.
 
+The dataset was intentionally created to:
+• Avoid exposing sensitive or personally identifiable financial information
+• Enable controlled testing of budgeting, cash-flow, and spending analysis scenarios
+• Focus on database design, SQL logic, and financial insights rather than data collection
+
+Transaction patterns (income frequency, expense categories, merchant usage, and budgets) were modeled
+to reflect realistic monthly household spending behavior.
