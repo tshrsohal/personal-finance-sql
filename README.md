@@ -16,7 +16,8 @@ The goal is to demonstrate practical SQL skills used in finance and accounting r
 ---
 
 ## Database Overview
-The database is designed using normalized relational tables to track:
+This project uses a small, synthetic dataset manually created to simulate realistic personal finance activity.
+It was designed to demonstrate schema design and SQL analysis without using real personal banking data. The database is designed using normalized relational tables to track:
 
 - Users
 - Bank & credit card accounts
@@ -48,9 +49,6 @@ Some of the insights generated using SQL queries:
 - Identification of recurring subscriptions
 
 ---
-
-## Sample Queries
-```sql
 -- Monthly income vs expense
 SELECT
   SUM(CASE WHEN txn_type='INCOME' THEN amount ELSE 0 END) AS income,
