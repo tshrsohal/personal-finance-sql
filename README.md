@@ -49,6 +49,9 @@ Some of the insights generated using SQL queries:
 - Identification of recurring subscriptions
 
 ---
+
+-- ## Sample Queries
+
 -- Monthly income vs expense
 SELECT
   SUM(CASE WHEN txn_type='INCOME' THEN amount ELSE 0 END) AS income,
